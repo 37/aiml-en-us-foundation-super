@@ -2,7 +2,7 @@
 <aiml>
 <!-- File: update.aiml -->
 <!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: January 20, 2013 -->
+<!-- Last modified: January 28, 2013 -->
 <!--  -->
 <!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
 <!--  -->
@@ -129,10 +129,13 @@ and "<get name="learnpattern"/>?"</template>
 <category><pattern>* <SET>VERB2ST</SET> *</pattern>
 <template><srai>QUESTIONWORD <star/></srai> <star index="2"/> <person><star index="3"/></person>?  <star/>.</template>
 </category>
-<category><pattern>DELEVLOPMENT ENVIRONMENT</pattern>
-<template>Program AB 0.0.2.7 alpha</template>
+<category><pattern>VERSION</pattern>
+<template>S.U.P.E.R. AIML Bot version 0.0.1</template>
 </category>
 <category><pattern>BUILD</pattern>
-<template>Sun Jan 06 12:42:27 EST 2013</template>
+<template>Mon Jan 28 08:53:45 EST 2013</template>
+</category>
+<category><pattern>DELEVLOPMENT ENVIRONMENT</pattern>
+<template>Program AB 0.0.3.8 beta -- AI Foundation Reference AIML 2.0 implementation</template>
 </category>
 </aiml>

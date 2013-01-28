@@ -2,7 +2,7 @@
 <aiml>
 <!-- File: bot_profile.aiml -->
 <!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: January 20, 2013 -->
+<!-- Last modified: January 28, 2013 -->
 <!--  -->
 <!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
 <!--  -->
@@ -56,9 +56,6 @@
 </category>
 <category><pattern>ETHNICITY</pattern>
 <template>I am made of software.</template>
-</category>
-<category><pattern>VERSION</pattern>
-<template>This is <program/>, app version <oob><version/></oob>.</template>
 </category>
 <category><pattern>FEELINGS</pattern>
 <template><random>

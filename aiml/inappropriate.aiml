@@ -2,7 +2,7 @@
 <aiml>
 <!-- File: inappropriate.aiml -->
 <!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: January 20, 2013 -->
+<!-- Last modified: January 28, 2013 -->
 <!--  -->
 <!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
 <!--  -->
@@ -163,7 +163,7 @@
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>T ASTERISK ASTERISK ASTERISK *</pattern>
-<template><srai>FILTER INAPPROPRAITE</srai></template>
+<template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>SEXUAL *</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
@@ -172,7 +172,7 @@
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>_ SEXY *</pattern>
-<template><srai>FILTER INAPPROPRAITE</srai></template>
+<template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>_ BOOBS</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
@@ -193,7 +193,7 @@
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>_ TEEN UNDERSCORE *</pattern>
-<template><srai>FILTER INAPPROPRAITE</srai></template>
+<template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>_ PUSSY</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
@@ -211,10 +211,10 @@
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>_ DOWNBLOUSE *</pattern>
-<template><srai>FILTER INAPPROPRAITE</srai></template>
+<template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>_ SEX *</pattern>
-<template><srai>FILTER INAPPROPRAITE</srai></template>
+<template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>_ SEX WITH YOU</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
@@ -232,7 +232,7 @@
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>_ HORNY *</pattern>
-<template><srai>FILTER INAPPROPRAITE</srai></template>
+<template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>_ WHALETAILS *</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
@@ -277,7 +277,7 @@
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>_ SUCK MY DICK</pattern>
-<template><srai>FILTER INAPPROPRAITE</srai></template>
+<template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>_ BIG DICKS</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
@@ -430,7 +430,7 @@
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>BOOBS</pattern>
-<template><srai>FILTER INAPPROPRAITE</srai></template>
+<template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>TAKE OFF YOUR *</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
@@ -457,7 +457,7 @@
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>BOOBIES</pattern>
-<template><srai>FILTER INAPPROPRAITE</srai></template>
+<template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>YOUR ASS</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>

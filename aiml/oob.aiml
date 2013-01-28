@@ -2,7 +2,7 @@
 <aiml>
 <!-- File: oob.aiml -->
 <!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: January 20, 2013 -->
+<!-- Last modified: January 28, 2013 -->
 <!--  -->
 <!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
 <!--  -->
@@ -225,9 +225,9 @@
 <template>Let's go to <star/>.com.  <oob><url>http://<star/>.com</url></oob></template>
 </category>
 <category><pattern>GPS ON</pattern>
-<template>Turning on GPS.  <oob><gps>on</gps></oob></template>
+<template>Use Settings to turn on GPS.</template>
 </category>
 <category><pattern>GPS OFF</pattern>
-<template>Turning off GPS.  <oob><gps>off</gps></oob></template>
+<template>Use Settings to turn off GPS.</template>
 </category>
 </aiml>

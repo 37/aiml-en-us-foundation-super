@@ -2,7 +2,7 @@
 <aiml>
 <!-- File: utilities.aiml -->
 <!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: January 20, 2013 -->
+<!-- Last modified: January 28, 2013 -->
 <!--  -->
 <!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
 <!--  -->
@@ -379,6 +379,27 @@ Which item would you like to remove?
 <template>true</template>
 </category>
 <category><pattern>ISANUMBER *</pattern>
+<template>false</template>
+</category>
+<category><pattern>ISAPHONENUMBER <SET>NUMBER</SET></pattern>
+<template>true</template>
+</category>
+<category><pattern>ISAPHONENUMBER <SET>NUMBER</SET> *</pattern>
+<template><srai>ISAPHONENUMBER <star/></srai></template>
+</category>
+<category><pattern>ISAPHONENUMBER PLUS *</pattern>
+<template><srai>ISAPHONENUMBER <star/></srai></template>
+</category>
+<category><pattern>ISAPHONENUMBER DASH *</pattern>
+<template><srai>ISAPHONENUMBER <star/></srai></template>
+</category>
+<category><pattern>ISAPHONENUMBER LPAREN *</pattern>
+<template><srai>ISAPHONENUMBER <star/></srai></template>
+</category>
+<category><pattern>ISAPHONENUMBER RPAREN *</pattern>
+<template><srai>ISAPHONENUMBER <star/></srai></template>
+</category>
+<category><pattern>ISAPHONENUMBER *</pattern>
 <template>false</template>
 </category>
 <category><pattern>INPUT</pattern>

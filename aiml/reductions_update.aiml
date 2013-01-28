@@ -2,7 +2,7 @@
 <aiml>
 <!-- File: reductions_update.aiml -->
 <!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: January 20, 2013 -->
+<!-- Last modified: January 28, 2013 -->
 <!--  -->
 <!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
 <!--  -->
@@ -3175,6 +3175,6 @@
 <template><srai>I AM CRYING</srai></template>
 </category>
 <category><pattern>I AM _ BUT I *</pattern>
-<template> <srai>I AM <star/></srai> <srai>I <star index="2"/></srai></template>
+<template><srai>I AM <star/></srai> <srai>I <star index="2"/></srai></template>
 </category>
 </aiml>
