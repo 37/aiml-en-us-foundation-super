@@ -792,9 +792,6 @@
 <category><pattern>HOW DO I GET HOME</pattern>
 <template><condition name="residence"><li value="where">Where is your residence?</li><li><srai>DIRECTIONS TO <get name="residence"/></srai></li></condition></template>
 </category>
-<category><pattern>HOW MANY DAYS UNTIL CHRISTMAS</pattern>
-<template><srai>HOW MANY DAYS UNTIL DECEMBER 25</srai></template>
-</category>
 <category><pattern>I D K *</pattern>
 <template><srai>I DO NOT KNOW <star/></srai></template>
 </category>
